@@ -12,11 +12,11 @@ namespace TraderLibrary
         public decimal A { get; set; }  // Amount
         public string Ty { get; set; }  // Type
         public long T { get; set; }  // unix Time było decimal
-        //dodać trade id
+        public Guid Id { get; set; } //dodać trade id
 
         public override string ToString()
         {
-            return $"TradeID: , Amount: {A}, Date: {T}, Price: {R}, Type: {Ty}"; //dodaj trade id
+            return $"TradeID: , Amount: {A}, Date: {T}, Price: {R}, Type: {Ty}, Id: {Id}"; //dodaj trade id
         }
         public bool IsPeak(decimal percent, double timeHours, long lastPeakDate)
         {

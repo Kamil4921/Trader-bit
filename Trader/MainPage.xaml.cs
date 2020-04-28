@@ -37,6 +37,7 @@ namespace Trader
             Amoundof.Text = $"Ilosc: {trade[0].A}";
             Time.Text = $"Czas: {trade[0].T}";
             Type.Text = $"Typ: {trade[0].Ty}";
+            Id.Text = $"Id: {trade[0].Id}";
         }
     }
 }
