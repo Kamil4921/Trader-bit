@@ -125,6 +125,7 @@
     <Compile Include="TradeModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TradeProcessor.cs" />
+    <Compile Include="TradeSet.cs" />
     <EmbeddedResource Include="Properties\TraderLibrary.rd.xml" />
   </ItemGroup>
   <ItemGroup>
