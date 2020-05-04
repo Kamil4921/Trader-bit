@@ -10,7 +10,7 @@ namespace Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
-        public long Tid { get; set; }
+        public string Tid { get; set; }
         [Required]
         public long Date { get; set; }
         [Required]

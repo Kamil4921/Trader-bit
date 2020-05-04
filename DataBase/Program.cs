@@ -12,7 +12,7 @@ namespace DataBase
         static void Main()
         {
             using var context = new TraderContext();
-            var indexes = new List<long> { };
+            var indexes = new List<string> { };
 
             string data_directory = @"D:\studia\NETiJava\Fintech\DATA\BitBay";
             var paths = Directory.EnumerateFiles(data_directory, "BTCPLN*.json");

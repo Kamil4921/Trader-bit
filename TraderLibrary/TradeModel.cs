@@ -12,7 +12,7 @@ namespace TraderLibrary
         public decimal A { get; set; }  // Amount
         public string Ty { get; set; }  // Type
         public long T { get; set; }  // unix Time było decimal
-        public long Id { get; set; } //dodać trade id
+        public string Id { get; set; } //dodać trade id
 
         public override string ToString()
         {

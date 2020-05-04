@@ -72,11 +72,6 @@ namespace Trader
                 // Upewnij się, ze bieżące okno jest aktywne
                 Window.Current.Activate();
             }
-
-            using (var db = new Models.TraderContext())
-            {
-                db.Database.Migrate();
-            }
         }
 
         /// <summary>

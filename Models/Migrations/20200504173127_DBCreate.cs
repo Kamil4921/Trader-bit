@@ -10,10 +10,10 @@ namespace Models.Migrations
                 name: "Trades",
                 columns: table => new
                 {
-                    Tid = table.Column<long>(nullable: false),
+                    Tid = table.Column<string>(nullable: false),
                     Date = table.Column<long>(nullable: false),
-                    Amount = table.Column<double>(nullable: false),
-                    Price = table.Column<double>(nullable: false),
+                    Amount = table.Column<decimal>(nullable: false),
+                    Price = table.Column<decimal>(nullable: false),
                     Type = table.Column<string>(nullable: false)
                 },
                 constraints: table =>

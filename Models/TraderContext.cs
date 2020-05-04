@@ -11,7 +11,8 @@ namespace Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlite("Data source=TraderBit.db");
+                //set your own credentials!
+                optionsBuilder.UseSqlServer("Server=DESKTOP-0QPECPO\\JULADB;Database=TraderBit;user id=julajula;pwd=123qwe;");
             }
         }
     }
