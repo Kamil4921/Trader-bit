@@ -12,7 +12,7 @@ namespace TraderLibrary
         public decimal A { get; set; }  // Amount
         public string Ty { get; set; }  // Type
         public long T { get; set; }  // unix Time było decimal
-        public Guid Id { get; set; } //dodać trade id
+        public long Id { get; set; } //dodać trade id
 
         public override string ToString()
         {
@@ -39,6 +39,11 @@ namespace TraderLibrary
                 && T - t.T >= 0
                 && T - t.T <= timeHours * 3600
                 && R - t.R <= -percent / 100 * t.R);
+        }
+
+        public Models.Trade ToTrade()
+        {
+            return new Models.Trade() { Amount = A, Date = T, Price = R, Tid = Id, Type = Ty };
         }
     }
 }

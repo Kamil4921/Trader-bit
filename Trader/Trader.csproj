@@ -150,11 +150,18 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite">
+      <Version>2.2.6</Version>
+    </PackageReference>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.9</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Models\Models.csproj">
+      <Project>{7acb88bd-3783-49dc-83a9-a2ae3770667f}</Project>
+      <Name>Models</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TraderLibrary\TraderLibrary.csproj">
       <Project>{999A0A95-E291-424A-A943-194025821243}</Project>
       <Name>TraderLibrary</Name>

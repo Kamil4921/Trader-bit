@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -70,6 +71,11 @@ namespace Trader
                 }
                 // Upewnij się, ze bieżące okno jest aktywne
                 Window.Current.Activate();
+            }
+
+            using (var db = new Models.TraderContext())
+            {
+                db.Database.Migrate();
             }
         }
 
