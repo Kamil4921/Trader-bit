@@ -12,7 +12,7 @@ namespace Models
             if (!optionsBuilder.IsConfigured)
             {
                 //set your own credentials!
-                optionsBuilder.UseSqlServer("Server=DESKTOP-0QPECPO\\JULADB;Database=TraderBit;user id=julajula;pwd=123qwe;");
+                optionsBuilder.UseSqlServer("Server=DESKTOP-2ASIN7C\\SQLEXPRESS;Database=TraderBit;user id=kamilkamil1;pwd=kamil;");
             }
         }
     }

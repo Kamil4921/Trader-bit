@@ -7,8 +7,12 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d" FontSize="22"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-    
+
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
         <StackPanel>
             <Button x:Name="LoadTrades" Margin="20" Click="LoadTrades_Click">Load Trades</Button>
             <TextBlock x:Name="Price" Margin="20"/>
@@ -17,5 +21,11 @@
             <TextBlock x:Name="Type" Margin="20"/>
             <TextBlock x:Name="Id" Margin="20"/>
         </StackPanel>
+        <ListView x:Name="Logs" Grid.Row="1" Margin="0,10,0,0">
+            <StackPanel>
+                <TextBlock x:Name="LogTime" Margin="10,0"/>
+                <TextBlock x:Name="Message" Margin="10,0"/>
+            </StackPanel>
+        </ListView>
     </Grid>
 </Page>

@@ -9,8 +9,8 @@ using Models;
 namespace Models.Migrations
 {
     [DbContext(typeof(TraderContext))]
-    [Migration("20200504173127_DBCreate")]
-    partial class DBCreate
+    [Migration("20200507135406_create")]
+    partial class create
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

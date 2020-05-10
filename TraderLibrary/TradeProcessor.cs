@@ -1,15 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace TraderLibrary
 {
     public class TradeProcessor
     {
-        public static async Task<TradeModel[]> LoadTrades(int limit = 1)
+        public static async Task<TradeModel[]> LoadTrades(int limit = 300)
         {
             string url = "";
 
