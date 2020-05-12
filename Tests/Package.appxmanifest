@@ -81,5 +81,6 @@
     <DeviceCapability Name="pointOfService"/>
     <DeviceCapability Name="proximity"/>
     <DeviceCapability Name="webcam"/>
+    <DeviceCapability Name="location"/>
   </Capabilities>
 </Package>
