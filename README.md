@@ -6,7 +6,8 @@
 * [Ustawienia](#ustawienia)
 * [Funkcje](#funkcje)
 * [Status](#status)
-* [Inspiration](#inspiration)
+* [Inspiracje](#iinspiracje)
+* [Kontakt](#kontakt)
 
 ## Technologie
 * .NetStandard 2.0
@@ -28,8 +29,8 @@ List of features ready and TODOs for future development
 ## Status
 Projekt w stanie zawieszenia
 
-## Inspiration
+## Inspiracje
 Inspiracją do tego projektu była chęć bliższego poznania giełdy krywptowalut, komunikacji z api oraz baz danych. 
 
-## Contact
+## Kontakt
 Stworzona przez [@Andadora](https://github.com/Andadora) i [@Kamil4921](https://github.com/Kamil4921)
