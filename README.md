@@ -6,7 +6,7 @@
 * [Ustawienia](#ustawienia)
 * [Funkcje](#funkcje)
 * [Status](#status)
-* [Inspiracje](#iinspiracje)
+* [Inspiracje](#inspiracje)
 * [Kontakt](#kontakt)
 
 ## Technologie
@@ -21,7 +21,7 @@
 Do uruchomienia aplikacji potrzebne jest zintegrowane środowisko programistyczne obsługujące aplikacje .Net. Aplikacja została napisana w Visual Studio 2019
 
 ## Funkcje
-List of features ready and TODOs for future development
+Rzeczy gotowe do użytku
 * Łączenie do Api Bitbay
 * Pobranie danych przez Api
 * Zapisywanie danych do  Bazy
